@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Counter from './Counter';
+import CounterWithReducer from './CounterWithReducer';
 
 
 interface AppProps {
@@ -12,6 +13,7 @@ const App: React.FunctionComponent<AppProps> = ({ message }) => {
     <div>
       {message}
       <Counter />
+      <CounterWithReducer />
     </div>
   );
 };
